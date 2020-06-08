@@ -1,0 +1,62 @@
+.a{
+	float: left;
+	width: 99%;
+	background-color: #2096f2;
+}
+.a1{
+	float: left;
+	width: 98%;
+    height: 4rem;
+    background-color: #d3eafc;
+    margin: 0.5rem;
+}
+.b{
+	float: left;
+	width: 100%;
+	height: 10rem;
+}
+.b1{
+	float: left;
+	width: 24%;
+	height: 8rem;
+	background-color:#d3eafc;
+	margin: 0.5rem; 
+}
+.b2{
+	float: left;
+	width: 73%;
+	height: 8rem;
+}
+.c1{
+	float: left;
+	width: 48.5%;
+	height: 4rem;
+	margin: 0.5rem;
+	background-color:#d3eafc;
+}
+.c2{
+	float: left;
+	width: 48%;
+	height: 4rem;
+	margin: 0.5rem;
+	background-color:#d3eafc;
+}
+.c3{
+	float: left;
+	width: 99%;
+	height: 3rem;
+	margin: 0.5rem;
+	background-color:#d3eafc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
