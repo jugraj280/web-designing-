@@ -1,0 +1,275 @@
+*{
+	box-sizing: border-box;
+}
+.body{
+	background-color: #ffde00;
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index: 1;
+}
+.a1{
+	float: left;
+	width: 100%;
+	height: 30em;
+}
+.a2{
+	margin: 0 auto;
+	width: 100%;
+}
+.nav{
+	height: 30rem;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+	margin-top: 40px;
+	width: 100%
+}
+.a3{
+	padding: 5px,0 0 80px;
+    width: 116px;
+	height: auto;
+	margin: 20px;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+    margin-right: 97px;
+	font: normal 1em/1.5 Helvetica Neue,Arial,Helvetica,sans-serif;
+}
+nav ul li{
+	background-color: white;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: black;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 14px;
+    font-weight: 700;
+}
+nav ul li a:hover{
+	background: #e6e600;
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+	background-color: white;
+}
+nav ul ul li{
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left: 150px;
+}
+button {
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.1);
+  cursor: pointer;
+  font-size: 14px;
+    font-weight: 700;
+}
+.m2{
+	text-align: center;
+	font-size: 2.8125rem;
+	line-height: 1.244;
+	color: #151b26;
+    font-weight: 400;
+    font-family: inherit;
+    margin-bottom: 16px;
+    word-spacing: 5px;
+}
+.m1 p{
+	text-align: center;
+	font-size: 1.375rem;
+    line-height: 1.636;
+    word-spacing: 8px;
+    color: #646f79;
+}
+.m1 h3{
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-top: 44px;
+    }
+.a4{
+	width: 80%
+	margin:auto;
+	height: 20px
+}
+.a5{
+	margin:auto;
+	height: 40px
+}
+.a5 ul li img{
+	height: 50px
+}
+.a5 ul li{
+	display: inline-flex;
+	margin-top: 20px;
+	margin-left: 55px;
+	margin-right: 55px;
+}
+.vi{
+	float: left;
+	width: 100%;
+	margin-left: 18rem;
+}
+.q1{
+	float: left;
+	width: 100%;
+	height: 20rem;
+	background-color: #eff2f3;
+}
+.q2{
+	float: left;
+	width: 33.3%;
+}
+.q3{
+	float: left;
+	width: 33.3%;
+}
+.q4{
+	float: left;
+	width: 33.3%;
+}
+.w1{
+	float: left;
+	width: 100%;
+}
+.w2{
+	float: left;
+	width: 50%;
+
+}
+.w3{
+	float: left;
+	width: 50%;
+}
+.s1{
+	float: left;
+	width: 100%;
+	height: 30rem;
+	background-color:#eff2f3;
+}
+.s2{
+	float: left;
+	width: 80%;
+	margin-left: 7rem;
+	margin-top: 5rem;	
+}
+.s3{
+	float: left;
+	width: 50%;
+}
+.s4{
+	float: left;
+	width: 50%;
+}
+.f1{
+	float: left;
+	width: 100%;
+	height: 30rem;
+}
+.f2{
+	float: left;
+	width: 80%;
+	margin-left: 7rem;
+	margin-top: 5rem;	
+}
+.f3{
+	float: left;
+	width: 50%;
+}
+.f4{
+	float: left;
+	width: 50%;
+}
+
+.n1{
+	float: left;
+	width: 100%;
+	height: 40rem;
+	background-color:#eff2f3;
+	margin-top: 11rem;
+}
+.n2{
+	float: left;
+	width: 80%;
+	margin-left: 7rem;
+	margin-top: 5rem;	
+}
+.n3{
+	float: left;
+	width: 50%;
+}
+.n4{
+	float: left;
+	width: 50%;
+}
+.j1{
+	float: left;
+	width: 100%;
+	height: 20rem;
+	background-color:#151b26;
+}
+.j2{
+	float: left;
+	width: 80%;
+	margin-left: 7rem;	
+}
+.j3{
+	float: left;
+	width: 20%;
+}
+.j4{
+	float: left;
+	width: 20%;
+}
+.j5{
+	float: left;
+	width: 20%;
+}
+.j6{
+	float: left;
+	width: 20%;
+}
+.j7{
+	float: left;
+	width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
