@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Class 9</title>
+</head>
+<body>
+    <!-- Progress bar using Bootstrap -->
+    <div class="container">
+        <div class="progress mt-5" >
+            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        <!-- Progress bar using progress html tag -->
+        <progress id="file" value="32" max="100"> 32% </progress>
+
+        <!-- HOMEWORK No 1 -->
+        <p>HOMEWORK No 1: Create a progress bar having similar functionality like (https://www.w3schools.com/w3css/w3css_progressbar.asp)</p>
+        <div class="w3-container">
+
+
+
+<div class="w3-light-grey">
+  <div id="myBar" class="w3-container w3-green w3-center" style="width:20%">20%</div>
+</div>
+<br>
+<button class="w3-button w3-green" onclick="move()">Click Me</button> 
+
+</div>
+
+<script>
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 20;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+</script>
+        <!-- Image map -->
+        <p>IMAGE MAP: https://www.w3schools.com/w3css/w3css_progressbar.asp</p>
+        
+        <h3>Linear Gradient (https://www.w3schools.com/css/tryit.asp?filename=trycss3_gradient-linear)</h3>
+        <div id="linearGradient"></div>
+
+        <!-- HOMEWORK No 2 -->
+        <p>HOMEWORK no. 2: Create 5 containers using different gradient property.</p>
+        <p>container 1</p>
+<div id="grad1"></div>
+<p>container 2</p>
+<div id="grad2"></div><p>container 3</p>
+<div id="grad3" style="text-align:center;margin:auto;color:#888888;font-size:40px;font-weight:bold">
+        </div><p>container 4</p>
+        <div id="grad4"></div><p>container 5</p>
+<div id="grad5"></div>
+
+
+        
+    </div>
+    
+    
+</body>
+</html>
