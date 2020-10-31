@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    margin: 10px;
+    padding: 10px;
+}
+
+input, label{
+    margin: 10px;
+}
+
+button{
+    padding: 5px 25px;
+    background: black;
+    color: white;
+    margin-top: 10px;   
+}
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.display{
+    background: black;
+    color: white;
+    width: 100%;
+    height: 350px;
+}
+
