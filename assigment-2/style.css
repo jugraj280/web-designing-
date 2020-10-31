@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.text {
+  margin-top: 10px;
+  background: lightcoral;
+  height: 150px;
+  width: 250px;
+  position: absolute;
+  margin-left: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  background: black;
+}
