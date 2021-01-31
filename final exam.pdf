@@ -1,0 +1,38 @@
+Answer 1 = A metalanguage which allows users to define their own customized markup languages, especially in order to display documents on the internet is called XML
+
+Answer 2= XSLT (Extensible Stylesheet Language Transformations) is a language for transforming XML documents into other XML documents, or other formats such as HTML for web pages, plain text or XSL Formatting Objects, which may subsequently be converted to other formats, such as PDF, PostScript and PNG.
+
+Answer 3= JSON is an open standard file format, and data interchange format, that uses human-readable ... JSON Schema specifies a JSON-based format to define the structure of JSON data for validation, documentation, and interaction control.
+
+Answer4= {
+"employee": {
+"name": "jugraj",
+"salary": 45000,
+"married": false.
+}
+}
+
+Answer 5= (Application programming interface) a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service is called API.
+
+
+Answer  6= The extension of the HTML <iframe> element that allows web apps to implement browsers or browser-like applications is browser API.
+
+Answer 7= The third party APIs are those  APIs which are provided by third party.generally companies such as Facebook, Twitter, or Google — to allow you to access their functionality via JavaScript and use it on your site
+
+
+Answer 8= <? xml version="1.0" encoding="ISO-8859-1"?>
+<note>
+<to>harjot</to>
+<from>Jagga</from>
+<heading>Reminder</heading>
+<body>Don't forget to bring on new year eve </body>
+</note>
+
+Answer 9=The biggeset diffrence in XML and JSON is that XML has to be parsed with an XML parser. JSON can be parsed by a standard JavaScript function.
+
+Answer 10= After the some research i found that" Data feeds such as weather, sporting odds, etc. For me, XML is really useful if I need to manually create JSON objects. It is very fast and easy to type an XML object into a text editor, then convert to json using an online XML to JSON converter. ... Many, many systems still deliver an XML payload"
+
+
+
+
+
