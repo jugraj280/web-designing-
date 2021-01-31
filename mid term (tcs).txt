@@ -1,0 +1,30 @@
+ans 1 : PHP (recursive acronym for PHP: Hypertext Preprocessor ) is a widely-used open source general-purpose 
+        scripting language that is especially suited for web development and can be embedded into HTML
+ans 2 : false
+ans 3 :Characteristics of PHP
+       1.Simplicity.
+       2.Efficiency.
+       3.Security.
+       4.Flexibility.
+       5.Familiarity.
+ans 4 :<?php
+         echo "Hello World!";
+       ?> 
+ans 5 :The strtolower() function converts a string to lowercase.
+ans 6 :The ucfirst() function converts the first character of a string to uppercase.
+ans 7 : The strcmp() function compares two strings.
+ans 8:Local variable is declared inside a function whereas Global variable is declared outside the function.
+      Local variables are created when the function has started execution and is lost when the function terminates,
+      on the other hand, Global variable is created as execution starts and is lost when the program ends.
+ans 9 :<?php
+
+       $first_number = 10;
+       $second_number = 20;
+       $multiple of 2 no is = $second_number * $first_number;
+       print ($multiple of 2 no is);
+       ?>
+ans 10 :An array is a data structure that stores one or more similar type of values in a single value. 
+        For example if you want to store 100 numbers then instead of defining 100 variables its easy to define
+        an array of 100 length.
+
+
