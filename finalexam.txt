@@ -1,0 +1,60 @@
+ans 1 :XML stands for eXtensible Markup Language. XML is a markup language much like HTML.
+       XML was designed to store and transport data. XML was designed to be self-descriptive.
+ans 2 :XSL (eXtensible Stylesheet Language) is a styling language for XML. XSLT stands for XSL Transformations. 
+      This tutorial will teach you how to use XSLT to transform
+      XML documents into other formats (like transforming XML into HTML).
+Ans 3. JSON is an open standard file format, and data interchange format,
+      that uses human-readable text to store and transmit data objects consisting
+     of attribute–value pairs and array data types. It is a very common data
+     format, with a diverse range of applications, such as serving as a
+     replacement for XML in AJAX systems.
+Ans 4. {"employees":[
+          {"name":"Shami", "email":"shamimahajan@gmail.com"},
+          {"name":"joban", "email":"jobanjeet32@gmail.com"},
+          {"name":"Jaiveer", "email":"jaiveer87@gmail.com"},
+       ]}
+Ans 5. API is the acronym for Application Programming Interface. An
+      application programming interface is a computing interface that defines
+      interactions between multiple software intermediaries. It defines the kinds
+      of calls or requests that can be made, how to make them, the data formats
+      that should be used, the conventions to follow, etc.
+Ans 6. The HTML Browser API is an extension of the HTML <iframe>
+       element that allows web apps to implement browsers or browser-like
+       applications. It currently works in (privileged) chrome code on Firefox
+      desktop.
+Ans 7. Third party APIs are APIs provided by third parties — generally
+       companies such as Facebook, Twitter, or Google — to allow you to access
+       their functionality via JavaScript and use it on your site. One of the most
+       obvious examples is using mapping APIs to display custom maps on your
+       pages.
+Ans 8. <bookstore>
+       <book category="COOKING">
+       <title lang="en">Everyday Italian</title>
+       <author>Giada De Laurentiis</author>
+       <year>2005</year>
+       <price>30.00</price>
+       </book>
+       <book category="CHILDREN">
+       <title lang="en">Harry Potter</title>
+       <author>J K. Rowling</author>
+       <year>2005</year>
+       <price>29.99</price>
+       </book>
+       <book category="WEB">
+       <title lang="en">Learning XML</title>
+       <author>Erik T. Ray</author>
+       <year>2003</year>
+       <price>39.95</price>
+       </book>
+       </bookstore>
+Ans 9. JSON is faster because it is designed specifically for data
+       interchange. JSON encoding is terse, which requires less bytes for
+       transit. JSON parsers are less complex, which requires less processing
+       time and memory overhead.
+       XML is slower, because it is designed for a lot more than just data
+       interchange.
+Ans 10. Because XML is a poor choice for files which must be maintained
+        by humans. There is no visual separation between the markup and the
+        content, making it hard to read. It is tedious to write correctly without a
+        special-purpose editor. Any error in an XML document is fatal;
+        an XML document cannot be partially processed.
