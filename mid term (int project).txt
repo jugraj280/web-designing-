@@ -1,0 +1,14 @@
+mid term (integration project )
+report for now about our project. 
+
+
+ 1. we made a mandate defination from the client we ask him lots of qusetion about the projrct which he wants.
+ 2. we made a research about the cleint and about thier projrct too. like about is background and the project he wants 
+    from us .
+ 3. after that we give the detail from our side to client what thing we cover in his project and waht is the price he should 
+    pay to us we give him reports in many ways which are done below.
+ 4. we give him theoretical solution and produce  with the help of one flow chart which is we simlpe and understoot for the 
+    client. we give him the idea how is his webpage will be shown whenits finsh with he hepl of this flow chart.
+ 5. after that we give him production script.
+ 6. after that  we make the gantt chart and give him a the quotation about his project .
+ 7. at the last we give him one visiual presentation for his project.  
