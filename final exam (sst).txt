@@ -1,0 +1,77 @@
+ ans 1 get:
+      1. In GET method, values are visible in the URL.	
+      2. GET has a limitation on the length of the values, generally 255 characters.	
+      3. This method supports only string data types.	
+      4. GET Parameters remain in web browser history.	
+ post:
+      1. In POST method, values are not visible in the URL.
+      2. POST has no limitation on the length of the values since they are submitted via the body of HTTP.
+      3. This method supports different data types, such as string, numeric, binary, etc.
+      4. Parameters are not saved in web browser history.
+Ans2. 
+     1.All the form fields are required, none could be empty. 
+     2.Check for the right format of data of the field (Please enter a valid email address)
+Ans3. 
+     The mail() function allows you to send emails.
+
+Ans4. 
+    A) Integer
+    B) Local
+    C) Undefined variable: userFirstName
+
+Ans5.
+    echo "$userFirstName $userLastName is only 17\n";
+
+Ans6. 
+     0
+
+Ans.7
+      echo $myArgument;
+
+Ans8. 
+     $firstName, $lastname
+
+
+Ans9. 
+     <?php
+      class cars {
+     // Properties
+     public $model;
+     public $year;
+     public $color;
+
+  // Methods
+    function set_model($model) {
+    $this->model = $model;
+  }
+    function get_model() {
+    return $this->model;
+  }
+  
+    function set_year($year) {
+    $this->year = $year;
+  }
+    function get_year() {
+    return $this->year;
+  }
+  
+    function set_color($color) {
+    $this->color = $color;
+  }
+    function get_color() {
+    return $this->color;
+  }
+}    
+    $bmw = new cars();
+
+    $bmw->set_model('BMW20');
+    $bmw->set_year(2021);
+    $bmw->set_color('White');
+
+    echo $bmw->get_model();
+    echo "\n";
+    echo $bmw->get_year();
+    echo "\n";
+    echo $bmw->get_color();
+    echo "\n";
+    ?>
