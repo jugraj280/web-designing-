@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  -ms-transform: translate(50px,100px); 
+  transform: translate(50px,100px); 
+}
+</style>
+</head>
+<body>
+<h1>Transforms from</h1>
+<h1>1. The translate() Method</h1>
+<div>
+This div element is moved 50 pixels to the right, and 100 pixels down from its current position.
+</div>
+
+</head>
+<body>
+
+<h1 style="margin-top: 100px;">2. The rotate() Method</h1>
+
+<div rotate style=" width: 300px;
+  height: 100px;
+  margin-top: 50px;
+  background-color: yellow;
+  border: 1px solid black;">
+This a normal div element.
+</div>
+
+<div id="rotate1" style="-ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);">
+This div element is rotated clockwise 20 degrees.
+</div>
+</body>
+</html>
