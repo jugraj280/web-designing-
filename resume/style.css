@@ -1,0 +1,58 @@
+.container1{
+	float: right;
+	width: 100%;
+	height: 100%;
+	background-color: #2EFE64;
+}
+.container2{
+	float: right;
+	width: 40%;
+	height: 100%;
+	background-color: black;
+}
+.container3{
+	float: right;
+	width: 60%;
+	height: 100%;
+	background-color:  #2EFE64;
+	background-image: url('soft.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.container4{
+	float: left;
+	width: 100%;
+}
+.container5{
+	float: left;
+	width: 100%;
+	height: 10%;
+	background-color: black;
+}
+.container6{
+	float: left;
+	width: 40%;
+	height: 60%;
+	background-color: black;
+}
+.container7{
+	float: left;
+	width: 60%;
+	height: 60%;
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
