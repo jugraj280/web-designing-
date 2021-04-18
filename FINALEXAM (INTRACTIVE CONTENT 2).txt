@@ -1,0 +1,95 @@
+                                                       FINAL EXAM 
+ANS1: Angular, React and Vue are all highly popular JavaScript libraries and frameworks that
+help developers build complex, reactive and modern user interfaces for the web. Actually, with
+additional libraries like React Native Ionic (With Angular or With React)Native React or you can
+even build native mobile apps for mobile devices with help of Angular, React and Vue. In this
+article, we’ll not really look at Why you would need such a framework. I’ll also not start
+explaining those libraries here - for that, you can check out other resources, like my courses on
+those topics (Angular,React,Vue - all included in our pro subscription of course). Instead, I want
+to share some thoughts on how those frameworks and libraries compare and which of the three
+you might want to choose for your next project. I also want to mention that there are other,
+smaller, libraries or technologies like svelte which do similar things. I do have a comparison on
+Svelte vs angular etc as well. 
+
+ANS2 :Syntax (details): Angular uses TypeScript and splits HTML + TypeScript logic apart, React
+uses JavaScript and a feature called “JSX” (it combines “HTML” and JavaScript logic),vue uses
+regular JavaScript and splits HTML + JavaScript logic apart. 
+
+ANS3 : SCSS is a preprocessor scripting language that is interpreted or compiled into Cascading
+Style Sheets. SassScript is the scripting language itself. Sass consists of two syntaxes. The
+original syntax, called "the indented syntax," uses a syntax similar.
+
+ANS4 :
+<html>
+<head>
+ <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+ <h2>Table</h2>
+ <div class="table-responsive">
+ <table class="table">
+ <thead>
+ <tr>
+ <th>#</th>
+ <th>Firstname</th>
+ <th>Lastname</th>
+ <th>Age</th>
+ <th>City</th>
+ <th>Country</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>1</td>
+ <td>Anna</td>
+ <td>Pitt</td>
+ <td>35</td>
+ <td>New York</td>
+ <td>USA</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+</div>
+</body>
+</html>
+
+ANS5 : The technical difference between a framework and library lies in a term called inversion of
+control. When you use a library, you are in charge of the application flow. You choose when and
+where to call the library. When you use a framework, the framework is in charge of the flow. 
+
+ANS 6:The HTML element is used to embed sound content in documents. It may contain one or
+more audio sources, represented using the src attribute or the element: the browser will choose
+the most suitable one. It can also be the destination for streamed media, using a MediaStream . 
+
+ANS7 : Video element ( ) 
+
+ANS 8: The HTML element is used to draw graphics, on the fly, via JavaScript. The element is
+only a container for graphics. You must use JavaScript to actually draw the graphics. Canvas has
+several methods for drawing paths, boxes, circles, text, and adding images. 
+
+ANS9 :
+ 1.Animation name: declares the name of the @keyframes at-rule to manipulate.
+ 2.Animation duration the length of time it takes for an animation to complete one cycle.
+ 3.Animation-timing: establishes preset acceleration curves such as Ease or liner. 
+ 4.Animation direction: sets the direction of the animation after the cycle. Its default resets on
+   each cycle.
+ 5.Animation iration count: the number of times the animation should be performed.
+ 6.Animation fill mode: sets which values are applied before/after the animation. For example,
+   you can set the last state of the animation to remain on screen, or you can set it to switch back to
+   before when the animation began.
+
+ANS10 :
+<html>
+<head>
+<title>Font Awesome Icons</title>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body style="font-size:24px;">
+<i class="fas fa-clock"></i>
+<i class="far fa-clock"></i>
+</body>
+</html>
