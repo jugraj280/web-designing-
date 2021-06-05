@@ -1,0 +1,44 @@
+.bg-color-green{
+    background-color: #003844;
+}
+.bg-color-white{
+    background-color: #ffffff;
+}
+.card{
+    margin: 1rem 0 0 0;
+    padding: 0.5rem;
+    background-color: #006c67;
+    min-height: 26rem;
+    color: white;
+}
+.card a{
+    border-color: #ffffff;
+}
+nav a{
+    color:#ffffff;
+}
+
+.card-title h5{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card-body a{
+    color: white;
+    padding: 10px 25px;
+    /* border: 1px solid white; */
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgb(22, 17, 14);
+}
+.card-body a:hover{
+    text-decoration: #003844;
+}
+
+footer {
+    color:#ffffff !important;
+}
+
+.active{
+    color: grey;
+}
