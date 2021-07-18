@@ -1,0 +1,83 @@
+                     FINAL EXAM(Development of a dynamic web site)
+
+
+QUS 1:In WordPress, what are comments?
+ANS  :Comments are a way for visitors to add feedback and reply to your posts and pages. 
+      If you choose to enable comments on your site, then a comment form will appear at 
+      the bottom of the posts and people can respond to what you have written.
+
+QUS 2:In WordPress, where is usually located a comments list?
+ANS  :All comments on a WordPress website are displayed on the Comments page in your
+      WordPress admin area. And also it is by default, it displays all comments.
+
+QUS 3:In WordPress, where is it possible to define some comments parameters?
+ANS  :Navigate to the Posts/Pages screen. In the list of pages or posts, find the one
+      you want and hover your cursor over the title of the post.You will see several 
+      links appear underneath the title. Click “Quick Edit” and check “Allow Comments.” 
+      Click “Update” to turn comments on for that post.
+
+QUS 4:In WordPress, in order to moderate comments, where in the dashboard would
+      you have to go and what basic actions can there be taken?
+ANS  :You can control which comments get held for moderation on your Settings Discussion
+      Screen page, which is located under Settings → Discussion. If you would like every 
+      comment to be held for moderation, check the Comment must be manually approved 
+      option, listed under Before a comment appears.
+
+QUS 5:Explain what does the following function when placed in the WordPress loop:
+      <?php comments_template(); ?>
+ANS  :It is used to place the comments template outside the wordpress loop and just above
+      the footer in the single.php file.
+
+QUS 6:Briefly explain what is the plugin Aksimet used for in WordPress.
+ANS  :Akismet is a spam filtering service that filters spam from comments, trackbacks, and
+      contact form messages. The filter works by combining information about spam captured on 
+      all participating sites, and then using those spam rules to block future spam. Akismet is
+      offered by Automattic, the company behind WordPress.com.
+
+QUS 7:Briefly explain what is a custom post type in WordPress.
+ANS  :A custom post type is nothing more than a regular post with a different post_type value in 
+      the database. The post type of regular posts is post , pages use page , attachments use
+      attachment and so on. You can now create your own to indicate the type of content created.
+
+QUS 8:In a Wordpress template, briefly explain what is the purpose of the following
+      codeline :
+      <?php if(have_posts() ) : while(have_posts() ) : the_posts(); ?>
+
+      <?php endwhile; endif; ?>
+ANS  : It's using the have_posts() function. If there are posts to display, then we start the PHP While Loop.
+       and <?php endwhile; endif; ?>  used to display post information. Be sure to include the call for the  
+       header template at the top the php while loop.
+
+QUS 9:Briefly explain what the following codeline is used for?
+      <?php if(is_singulare( 'mypage' ) ) { 
+ANS  :It is use to is_singular() will be true no matter which the post type of the single piece of content being displayed.
+
+QUS 10:Briefly explain what is a sidebar and what is it used for?
+ANS   :In short, a sidebar is a column placed to the right or left of a webpage's primary content area. They're commonly
+       used to display various types of supplementary information for users, such as: Navigational links to key pages and
+       Ads for products or services.
+
+QUS 11:Briefly explain what is a widget and give one example.
+ANS   :A widget is an element of a graphical user interface (GUI) that displays information or provides a specific way 
+      for a user to interact with the operating system or an application. Using Microsoft's Visual Basic, a widget can
+      be implemented as or part of an ActiveX control.
+
+QUS 12:WordPress allows the use of various plugins. Briefly explain what is a plug-in
+       and give an example.
+ANS   :WordPress plugins are small software apps that integrate and run on top of the WordPress software. This allows
+       you to create almost any kind of website with WordPress (not just blogs). For example, you can: Start an online
+       store with WordPress using the WooCommerce plugin.
+
+QUS 13:Briefly explain what is the purpose of the Gutenberg plug-in.
+ANS   :The Gutenberg plugin is usually several version releases ahead of core WordPress, so you can preview the new 
+       features of the WordPress block editor before they are introduced into WordPress core. Running the Gutenberg 
+       plugin is a great way to get the latest new features of the WordPress block editor.
+
+QUS 14:What kind of plu-in is «Sucuri»?
+      (Circle the letter corresponding to your answer)
+      a) A calendar application
+      b) A security application
+      c) A title generation application
+      d) A Content manager
+      e) None of the above
+ANS : b) A security application
