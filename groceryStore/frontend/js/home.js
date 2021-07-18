@@ -10,6 +10,7 @@ $( document ).ready(function() {
 function getBookName(){
     $("#bookSearch").keyup(function(){
         var bookToSearch = $("#bookSearch").val();
+        bookToSearch= bookToSearch.toLowerCase();
         if( bookToSearch.length != 0){
             var url = "http://localhost:5555/getBookInfo/" + bookToSearch;
             $("#books").empty();

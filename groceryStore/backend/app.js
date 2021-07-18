@@ -1,6 +1,6 @@
 var express = require('express'); // Telling nodeJs that we gonna use Express
 var cors = require('cors');
-// var bodyParser = require('body-parser') 
+
 var fs = require('fs');
 var multer = require('multer');
 var { v4: uuidv4 } = require('uuid');
@@ -12,7 +12,7 @@ var booksInfoJSON = require('./json/books.json');
 var users = require('./json/users.json');
 const { json } = require('body-parser');
 // for parsing application/xwww-
-// app.use(bodyParser.urlencoded({ extended: true })); 
+//app.use(bodyParser.urlencoded({ extended: true })); 
 //form-urlencoded
 
 // for parsing multipart/form-data
@@ -22,8 +22,7 @@ var port = 5555;  // We are assigning address to the server.
 
 app.use(cors());
 app.use(express.static('images'));
-// app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(bodyParser());
+
 app.engine('html', require('ejs').renderFile);
 app.use(express.static(__dirname + '/public'));
 app.use(express.json());
@@ -93,6 +92,7 @@ app.post('/register', (req, res) => {
   if (usernameExist){
      result = {"result": false, "msg": "Username already exist. Try Login!"};
   }else{
+    console.log("username", username, "password", password);
     users.push({"username": username, "password": password});
     users = JSON.stringify(users);
     fs.writeFileSync('json/users.json', users);
