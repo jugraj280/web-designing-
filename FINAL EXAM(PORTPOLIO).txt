@@ -1,0 +1,58 @@
+                               FINAL EXAM (PORTFOLIO )
+ Q1: What is Resume?
+ANS :A resume is a formal document that a job applicant creates to itemize their 
+     qualifications for a position. A resume is usually accompanied by a customized cover
+     letter in which the applicant expresses an interest in a specific job or company and
+     draws attention to the most relevant specifics on the resume.
+
+Q2: What is Portfolio?
+ANS:A portfolio is an organized, visual collection of a person's progress, achievements,
+    and efforts that demonstrates his/her accomplishments. The collection is a marketing
+    tool aimed at potential employers that includes work samples and personal feedback on them.
+
+Q3: What is the difference between a Resume and Portfolio?
+ANS:Portfolios are much more detailed than resumes and require a larger time investment to create.
+    While a resume is one or two pages long at most, a portfolio is usually presented in a professional,
+    3-ring binder allowing for an in-depth showcasing of your experience and skills.
+
+Q4: What are things which an individual should avoid while creating a resume?
+ANS: There are many individual should avoid while creating a resume for exmaples.
+   1 Grammatical Errors.
+   2 Lack of Specifics. 
+   3 Attempting the "One–Size–Fits–All" Approach. 
+   4 Highlighting Duties Instead of Accomplishments. 
+   5 Going on Too Long or Cutting Things Too Short. 
+   6 Bad Summary. 
+   7 No Action Verbs. 
+   8 Leaving Off Important Information.
+
+Q5: Mention the name of the final project and mention its 5 functionalities?
+ANS:The name of final project is grocery store and its functionalites are
+  1. You can add new user
+  2. YOU can sign in or sign out.
+  3. You can see the items and also buy from this.
+  4. you can add add new items their.
+  5. You can delete the items .
+
+Q6: Is your final project is Full Stack project?
+ANS : YES
+
+Q7: What are more functionalities you can add to your final project?
+ANS: We can add any functionalites in our final porject which we want.For exmple,
+     custmor feedback, suggestions from cliets, slide show for the upcomimg items etc.
+
+Q8: What is AJAX?
+ANS:AJAX stands for Asynchronous JavaScript And XML. In a nutshell, it is the use of
+    the XMLHttpRequest object to communicate with servers. It can send and receive information
+    in various formats, including JSON, XML, HTML, and text files.
+
+Q9: What are REST Services?
+ANS :REST is used to build web services that are lightweight, maintainable, and scalable in nature.
+     More and more applications are moving to the Restful architecture. This is because there 
+     are a lot of people now using mobile devices and a wider variety of applications moving to 
+     the cloud.
+
+Q10: How does GET service works?
+ANS :Get-Service gets all the services on the computer and sends the objects down the pipeline.
+     The Where-Object cmdlet, selects only the services with a Status property that equals Running.
+      Status is only one property of service objects. To see all of the properties, type Get-Service | Get-Member .
